@@ -1,0 +1,40 @@
+.check_product {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    background: white;
+    align-items: center;
+    margin: 5px;
+}
+
+.check_product_img {
+    max-height: 150px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.check_product_btn {
+    background: #ff9f00;
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+
+.check_product_rating {
+    display: flex;
+}
+
+.check_prod_intRating {
+    background: whitesmoke;
+    border-color: #111;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
